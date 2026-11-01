@@ -17,3 +17,8 @@ Muse が生成・自動更新するカスタム RSS フィード置き場です�
 - 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/hoshitabi.xml
 - 元ページ: https://comics.pie.co.jp/series/hoshitabi/
 - 内容: 全41話（話数・更新日・読む/購入リンク）。毎朝 Muse が自動更新します。
+
+### ぷにるはかわいいスライム（週刊コロコロコミック）
+- 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/puniru.xml
+- 元ページ: https://www.corocoro.jp/title/38
+- 内容: 無料で読める話のみ（有料話は含まない）。毎朝 Muse が自動更新します。
