@@ -27,3 +27,8 @@ Muse が生成・自動更新するカスタム RSS フィード置き場です�
 - 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/sanx-topics.xml
 - 元ページ: https://www.san-x.co.jp/ja/topics/
 - 内容: 最新60件（サムネイル付き）。毎朝 Muse が自動更新します。
+
+### Charabiz.com Ｔｉｍｅｌｉｎｅ
+- 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/charabiz-timeline.xml
+- 元ページ: https://www.charabiz.com/
+- 内容: 「Ｔｉｍｅｌｉｎｅ」欄の記事（大きなカードの記事はサムネイル付き）。毎朝 Muse が自動更新します。
