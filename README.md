@@ -22,3 +22,8 @@ Muse が生成・自動更新するカスタム RSS フィード置き場です�
 - 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/puniru.xml
 - 元ページ: https://www.corocoro.jp/title/38
 - 内容: 無料で読める話のみ（有料話は含まない）。毎朝 Muse が自動更新します。
+
+### サンエックス トピックス
+- 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/sanx-topics.xml
+- 元ページ: https://www.san-x.co.jp/ja/topics/
+- 内容: 最新60件（サムネイル付き）。毎朝 Muse が自動更新します。
