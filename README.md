@@ -37,3 +37,8 @@ Muse が生成・自動更新するカスタム RSS フィード置き場です�
 - 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/mitenaito-shouchishinaiyo.xml
 - 元ページ: https://comic-walker.com/detail/KC_008656_S
 - 内容: 全7話（サムネイル付き）。毎朝 Muse が自動更新します。
+
+### バンダイこどもアンケート
+- 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/bandai-kodomo.xml
+- 元ページ: https://www.bandai.co.jp/kodomo/index.html
+- 内容: 調査結果31件（直近10年分）。毎月10日に Muse が自動更新します。
