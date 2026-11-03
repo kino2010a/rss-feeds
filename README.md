@@ -42,3 +42,8 @@ Muse が生成・自動更新するカスタム RSS フィード置き場です�
 - 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/bandai-kodomo.xml
 - 元ページ: https://www.bandai.co.jp/kodomo/index.html
 - 内容: 調査結果31件（直近10年分）。毎月10日に Muse が自動更新します。
+
+### 絵本ナビ インタビュー記事
+- 登録用URL: https://raw.githubusercontent.com/kino2010a/rss-feeds/main/ehonnavi-interview.xml
+- 元ページ: https://www.ehonnavi.net/specialcontents/interview/
+- 内容: 最新30件（サムネイル付き）。毎週金曜日に Muse が自動更新します。
