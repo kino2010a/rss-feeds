@@ -1,0 +1,44 @@
+name: Update San-X topics feed
+
+on:
+  schedule:
+    - cron: "30 9 * * *"  # 18:30 JST
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rewrite the feed even if there are no new articles (for testing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sanx-topics-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate feed
+        env:
+          FEED_OUT: ${{ github.workspace }}/sanx-topics.xml
+          NO_STATE: "1"
+          FORCE_WRITE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '' }}
+        run: python3 scripts/sanx-topics/generate_feed.py
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sanx-topics.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update San-X topics feed"
+            git push
+          fi
